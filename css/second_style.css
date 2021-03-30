@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(125deg, #778beb, #f8a5c2);
+}
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.conteiner {
+    display: inline-block;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.avatar{
+    position:relative;
+    top: 0;
+    align-self: center;
+    height: 300px;
+    
+}
+
+.container {
+    margin-left: 100px;
+}
+.card {
+    background: #141313; /* Цвет фона */
+    width: 400px; /* Ширина */
+    margin: 0 20px 10px 0; /* Отступы */
+    padding: 90px 0; /* Поля сверху и снизу */
+    text-align: center; /* Выравнивание по центру */
+    display: inline-block; /* Строчно-блочный элемент */
+}
+
+.card .text{
+    color:chartreuse;
+    
+    border-right: 100px;
+}
+
+.card img {
+    border: 2px solid #bb288a;
+    height: 200px;
+    
+}
+
+.card:hover {
+    transform: scale(1.3, 1.3);
+    opacity: 1;
+    z-index: 300;
+    transition: 0.3s all;
+}
+
+
+.card p {
+    align-self: center;
+}

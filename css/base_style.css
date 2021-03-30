@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background: linear-gradient(125deg, #778beb, #f8a5c2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    width: min(1200px, 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.content{
+    width: calc(30% - 10px);
+    overflow: hidden;
+}
+
+
+
+
+.content:hover .about{
+    transform: translateY(20px);
+    transition: 0.3s all;
+}
+
+@media screen and (max-width : 1200px) {
+    .cards {
+        justify-content: center;
+    }
+    .content {
+        width: min(600px, 100%);
+    }
+}

@@ -1,0 +1,41 @@
+.overlay {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background: black;
+    opacity: .7;
+  }
+body {
+    background: linear-gradient(125deg, #778beb, #f8a5c2);
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    position: absolute;
+    background: white;
+    opacity: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    th, td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+    }
+
+    th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    }
+
+    td {
+    background: #D8E6F3;
+    }
+
+    th:first-child, td:first-child {
+    text-align: left;
+    }
